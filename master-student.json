@@ -1,0 +1,1677 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "board": "ICSE",
+    "class": "9",
+    "academicYear": "2025-2026",
+    "lastUpdated": "2025-11-18"
+  },
+  "student": {
+    "id": "STU001",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@student.school.in",
+    "rollNumber": "9A-15",
+    "class": "9",
+    "section": "A",
+    "avatar": "/avatars/student-1.png"
+  },
+  "courses": [
+    {
+      "id": "MATH9",
+      "code": "MATH9",
+      "name": "Mathematics",
+      "instructor": "Mrs. Priya Deshmukh",
+      "semester": "2025-2026",
+      "credits": 5,
+      "schedule": "Mon, Wed, Fri - 9:00 AM",
+      "color": "#3B82F6",
+      "currentGrade": 85,
+      "letterGrade": "A"
+    },
+    {
+      "id": "ENG9",
+      "code": "ENG9",
+      "name": "English",
+      "instructor": "Mr. Arjun Mehta",
+      "semester": "2025-2026",
+      "credits": 5,
+      "schedule": "Tue, Thu, Sat - 10:00 AM",
+      "color": "#10B981",
+      "currentGrade": 88,
+      "letterGrade": "A"
+    }
+  ],
+  "chapters": {
+    "MATH9": [
+      {
+        "id": "M1",
+        "number": 1,
+        "title": "Rational and Irrational Numbers",
+        "status": "completed",
+        "topics": [
+          "Rational Numbers",
+          "Irrational Numbers",
+          "Real Numbers",
+          "Number Line",
+          "Laws of Exponents"
+        ],
+        "tags": [
+          "logical-reasoning",
+          "abstract-thinking",
+          "pattern-recognition",
+          "numerical-analysis"
+        ]
+      },
+      {
+        "id": "M2",
+        "number": 2,
+        "title": "Compound Interest",
+        "status": "completed",
+        "topics": [
+          "Simple Interest",
+          "Compound Interest Formula",
+          "Growth and Depreciation",
+          "Banking Applications"
+        ],
+        "tags": [
+          "financial-literacy",
+          "applied-mathematics",
+          "real-world-problem-solving",
+          "quantitative-analysis"
+        ]
+      },
+      {
+        "id": "M3",
+        "number": 3,
+        "title": "Expansions",
+        "status": "in-progress",
+        "topics": [
+          "Algebraic Identities",
+          "(a+b)\u00b2 and (a-b)\u00b2",
+          "(a+b)\u00b3 and (a-b)\u00b3",
+          "Factorization"
+        ],
+        "tags": [
+          "algebraic-manipulation",
+          "pattern-recognition",
+          "symbolic-reasoning",
+          "abstract-thinking"
+        ]
+      },
+      {
+        "id": "M4",
+        "number": 4,
+        "title": "Factorization",
+        "status": "not-started",
+        "topics": [
+          "Common Factors",
+          "Grouping Method",
+          "Using Identities",
+          "Quadratic Expressions"
+        ],
+        "tags": [
+          "problem-decomposition",
+          "analytical-thinking",
+          "pattern-recognition",
+          "systematic-approach"
+        ]
+      },
+      {
+        "id": "M5",
+        "number": 5,
+        "title": "Simultaneous Linear Equations",
+        "status": "not-started",
+        "topics": [
+          "Elimination Method",
+          "Substitution Method",
+          "Cross-Multiplication",
+          "Word Problems"
+        ],
+        "tags": [
+          "systems-thinking",
+          "logical-reasoning",
+          "multi-step-problem-solving",
+          "applied-mathematics"
+        ]
+      }
+    ],
+    "ENG9": [
+      {
+        "id": "E1",
+        "number": 1,
+        "title": "Grammar - Parts of Speech",
+        "status": "completed",
+        "topics": [
+          "Nouns",
+          "Pronouns",
+          "Verbs",
+          "Adjectives",
+          "Adverbs",
+          "Prepositions"
+        ],
+        "tags": [
+          "language-structure",
+          "attention-to-detail",
+          "rule-based-thinking",
+          "communication-skills"
+        ]
+      },
+      {
+        "id": "E2",
+        "number": 2,
+        "title": "Composition - Essay Writing",
+        "status": "completed",
+        "topics": [
+          "Narrative Essays",
+          "Descriptive Essays",
+          "Argumentative Essays",
+          "Letter Writing"
+        ],
+        "tags": [
+          "creative-expression",
+          "structured-thinking",
+          "persuasive-communication",
+          "written-articulation"
+        ]
+      },
+      {
+        "id": "E3",
+        "number": 3,
+        "title": "Poetry - The Road Not Taken",
+        "status": "in-progress",
+        "topics": [
+          "Poet Biography",
+          "Theme Analysis",
+          "Literary Devices",
+          "Critical Appreciation"
+        ],
+        "tags": [
+          "interpretive-analysis",
+          "symbolic-thinking",
+          "aesthetic-appreciation",
+          "critical-thinking"
+        ]
+      },
+      {
+        "id": "E4",
+        "number": 4,
+        "title": "Prose - The Lost Child",
+        "status": "not-started",
+        "topics": [
+          "Story Summary",
+          "Character Analysis",
+          "Theme",
+          "Moral Lessons"
+        ],
+        "tags": [
+          "empathy",
+          "narrative-comprehension",
+          "character-analysis",
+          "emotional-intelligence"
+        ]
+      },
+      {
+        "id": "E5",
+        "number": 5,
+        "title": "Drama - The Merchant of Venice",
+        "status": "not-started",
+        "topics": [
+          "Plot Summary",
+          "Characters",
+          "Themes",
+          "Shakespeare's Language"
+        ],
+        "tags": [
+          "literary-analysis",
+          "historical-context",
+          "complex-narratives",
+          "interpretive-skills"
+        ]
+      }
+    ]
+  },
+  "assignments": [
+    {
+      "id": "A1",
+      "courseId": "MATH9",
+      "title": "Rational Numbers Problem Set",
+      "description": "Solve 20 problems on rational and irrational numbers including operations, number line representation, and real-world applications.",
+      "dueDate": "2025-05-20T23:59:00Z",
+      "totalPoints": 50,
+      "earnedPoints": 45,
+      "status": "graded",
+      "submittedAt": "2025-05-19T18:30:00Z",
+      "feedback": "Excellent work! Minor calculation error in Q15.",
+      "attachments": [
+        "rational-numbers-worksheet.pdf"
+      ],
+      "tags": [
+        "logical-reasoning",
+        "abstract-thinking",
+        "numerical-analysis"
+      ]
+    },
+    {
+      "id": "A2",
+      "courseId": "MATH9",
+      "title": "Compound Interest Applications",
+      "description": "Calculate compound interest for various banking scenarios. Include problems on growth, depreciation, and population increase.",
+      "dueDate": "2025-06-15T23:59:00Z",
+      "totalPoints": 40,
+      "earnedPoints": 38,
+      "status": "graded",
+      "submittedAt": "2025-06-14T20:00:00Z",
+      "feedback": "Good understanding of formulas. Practice more word problems.",
+      "attachments": [
+        "compound-interest-problems.pdf"
+      ],
+      "tags": [
+        "financial-literacy",
+        "applied-mathematics",
+        "quantitative-analysis"
+      ]
+    },
+    {
+      "id": "A3",
+      "courseId": "MATH9",
+      "title": "Algebraic Expansions Worksheet",
+      "description": "Expand and simplify algebraic expressions using identities (a+b)\u00b2, (a-b)\u00b2, (a+b)\u00b3, (a-b)\u00b3. Show all steps.",
+      "dueDate": "2025-11-25T23:59:00Z",
+      "totalPoints": 50,
+      "status": "active",
+      "attachments": [
+        "expansions-worksheet.pdf",
+        "formula-sheet.pdf"
+      ],
+      "tags": [
+        "algebraic-manipulation",
+        "pattern-recognition",
+        "symbolic-reasoning"
+      ]
+    },
+    {
+      "id": "A4",
+      "courseId": "ENG9",
+      "title": "Essay - My Favorite Book",
+      "description": "Write a 500-word essay on your favorite book. Include plot summary, character analysis, and personal reflection.",
+      "dueDate": "2025-05-25T23:59:00Z",
+      "totalPoints": 30,
+      "earnedPoints": 28,
+      "status": "graded",
+      "submittedAt": "2025-05-24T16:00:00Z",
+      "feedback": "Well-written essay with good vocabulary. Work on paragraph transitions.",
+      "attachments": [],
+      "tags": [
+        "creative-expression",
+        "written-articulation",
+        "narrative-comprehension"
+      ]
+    },
+    {
+      "id": "A5",
+      "courseId": "ENG9",
+      "title": "Poetry Analysis - The Road Not Taken",
+      "description": "Analyze Robert Frost's poem. Discuss theme, literary devices, rhyme scheme, and personal interpretation.",
+      "dueDate": "2025-11-22T23:59:00Z",
+      "totalPoints": 40,
+      "status": "active",
+      "attachments": [
+        "poetry-analysis-guidelines.pdf"
+      ],
+      "tags": [
+        "interpretive-analysis",
+        "critical-thinking",
+        "aesthetic-appreciation"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "MAT1",
+      "courseId": "MATH9",
+      "title": "Chapter 1 - Rational Numbers Notes",
+      "type": "pdf",
+      "size": "2.5 MB",
+      "uploadedAt": "2025-04-15T10:00:00Z",
+      "url": "/materials/math-ch1-notes.pdf",
+      "tags": [
+        "logical-reasoning",
+        "abstract-thinking",
+        "numerical-analysis"
+      ]
+    },
+    {
+      "id": "MAT2",
+      "courseId": "MATH9",
+      "title": "Compound Interest Formula Sheet",
+      "type": "pdf",
+      "size": "1.2 MB",
+      "uploadedAt": "2025-05-20T09:00:00Z",
+      "url": "/materials/math-ch2-formulas.pdf",
+      "tags": [
+        "financial-literacy",
+        "applied-mathematics",
+        "quantitative-analysis"
+      ]
+    },
+    {
+      "id": "MAT3",
+      "courseId": "MATH9",
+      "title": "Algebraic Identities Chart",
+      "type": "pdf",
+      "size": "800 KB",
+      "uploadedAt": "2025-06-15T11:00:00Z",
+      "url": "/materials/math-ch3-identities.pdf",
+      "tags": [
+        "algebraic-manipulation",
+        "pattern-recognition",
+        "symbolic-reasoning"
+      ]
+    },
+    {
+      "id": "MAT4",
+      "courseId": "ENG9",
+      "title": "Grammar Rules - Parts of Speech",
+      "type": "pdf",
+      "size": "1.8 MB",
+      "uploadedAt": "2025-04-20T14:00:00Z",
+      "url": "/materials/eng-grammar-notes.pdf",
+      "tags": [
+        "language-structure",
+        "communication-skills",
+        "rule-based-thinking"
+      ]
+    },
+    {
+      "id": "MAT5",
+      "courseId": "ENG9",
+      "title": "The Road Not Taken - Analysis",
+      "type": "pdf",
+      "size": "1.5 MB",
+      "uploadedAt": "2025-06-10T10:00:00Z",
+      "url": "/materials/eng-poetry-analysis.pdf",
+      "tags": [
+        "interpretive-analysis",
+        "critical-thinking",
+        "aesthetic-appreciation"
+      ]
+    },
+    {
+      "id": "MAT6",
+      "courseId": "MATH9",
+      "title": "Factorization Practice Problems",
+      "type": "pdf",
+      "size": "1.5 MB",
+      "uploadedAt": "2025-07-10T10:00:00Z",
+      "url": "/materials/math-ch4-practice.pdf",
+      "tags": [
+        "problem-decomposition",
+        "analytical-thinking",
+        "systematic-approach"
+      ]
+    },
+    {
+      "id": "MAT7",
+      "courseId": "MATH9",
+      "title": "Linear Equations Solved Examples",
+      "type": "pdf",
+      "size": "2.1 MB",
+      "uploadedAt": "2025-08-05T11:00:00Z",
+      "url": "/materials/math-ch5-examples.pdf",
+      "tags": [
+        "systems-thinking",
+        "logical-reasoning",
+        "multi-step-problem-solving"
+      ]
+    },
+    {
+      "id": "MAT8",
+      "courseId": "ENG9",
+      "title": "Essay Writing Guide",
+      "type": "pdf",
+      "size": "1.3 MB",
+      "uploadedAt": "2025-05-15T09:00:00Z",
+      "url": "/materials/eng-essay-guide.pdf",
+      "tags": [
+        "creative-expression",
+        "structured-thinking",
+        "written-articulation"
+      ]
+    },
+    {
+      "id": "MAT9",
+      "courseId": "ENG9",
+      "title": "The Lost Child - Study Notes",
+      "type": "pdf",
+      "size": "900 KB",
+      "uploadedAt": "2025-07-20T14:00:00Z",
+      "url": "/materials/eng-prose-notes.pdf",
+      "tags": [
+        "narrative-comprehension",
+        "character-analysis",
+        "empathy"
+      ]
+    },
+    {
+      "id": "MAT10",
+      "courseId": "ENG9",
+      "title": "Merchant of Venice - Character Guide",
+      "type": "pdf",
+      "size": "1.7 MB",
+      "uploadedAt": "2025-08-10T10:30:00Z",
+      "url": "/materials/eng-drama-characters.pdf",
+      "tags": [
+        "literary-analysis",
+        "historical-context",
+        "complex-narratives"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "MSG1",
+      "from": "Mrs. Priya Deshmukh",
+      "fromEmail": "priya.deshmukh@school.in",
+      "subject": "Mid-Term Exam Preparation",
+      "body": "Dear Aarav,\n\nThe mid-term exam is scheduled for November 25. Please revise Chapters 1-3 thoroughly. Focus on problem-solving and formula applications.\n\nBest regards,\nMrs. Deshmukh",
+      "date": "2025-11-15T14:30:00Z",
+      "read": true,
+      "courseId": "MATH9",
+      "type": "message"
+    },
+    {
+      "id": "MSG2",
+      "from": "Mr. Arjun Mehta",
+      "fromEmail": "arjun.mehta@school.in",
+      "subject": "Poetry Assignment Reminder",
+      "body": "Hi Aarav,\n\nReminder: Your poetry analysis assignment is due on November 22. Make sure to cover all aspects mentioned in the guidelines.\n\nRegards,\nMr. Mehta",
+      "date": "2025-11-18T09:00:00Z",
+      "read": false,
+      "courseId": "ENG9",
+      "type": "message"
+    },
+    {
+      "id": "MSG3",
+      "from": "Mrs. Priya Deshmukh",
+      "fromEmail": "priya.deshmukh@school.in",
+      "subject": "Great Work on Assignment A2!",
+      "body": "Dear Aarav,\n\nExcellent work on the Compound Interest assignment! You scored 38/40. Keep up the good work.\n\nBest,\nMrs. Deshmukh",
+      "date": "2025-06-16T11:00:00Z",
+      "read": true,
+      "courseId": "MATH9",
+      "type": "message"
+    },
+    {
+      "id": "ANN1",
+      "from": "School Administration",
+      "fromEmail": "admin@school.in",
+      "subject": "Mid-Term Exam Schedule Released",
+      "body": "The mid-term examination schedule has been released. Mathematics exam on Nov 25 and English exam on Nov 27. Check the calendar for details.",
+      "date": "2025-11-18T10:00:00Z",
+      "read": false,
+      "courseId": "MATH9",
+      "type": "announcement",
+      "priority": "high"
+    },
+    {
+      "id": "ANN2",
+      "from": "Mr. Arjun Mehta",
+      "fromEmail": "arjun.mehta@school.in",
+      "subject": "Poetry Competition - Nov 30",
+      "body": "Inter-class poetry recitation competition on November 30. Interested students please register with the English department.",
+      "date": "2025-11-17T14:00:00Z",
+      "read": true,
+      "courseId": "ENG9",
+      "type": "announcement",
+      "priority": "normal"
+    },
+    {
+      "id": "ANN3",
+      "from": "Mrs. Priya Deshmukh",
+      "fromEmail": "priya.deshmukh@school.in",
+      "subject": "New Study Materials Available",
+      "body": "Additional practice problems for Logarithms chapter have been uploaded to course materials. Highly recommended for exam preparation.",
+      "date": "2025-11-16T11:30:00Z",
+      "read": true,
+      "courseId": "MATH9",
+      "type": "announcement",
+      "priority": "normal"
+    },
+    {
+      "id": "ANN4",
+      "from": "School Library",
+      "fromEmail": "library@school.in",
+      "subject": "Library Hours Extended",
+      "body": "Library will remain open until 7 PM during exam week (Nov 20-30) for student study sessions.",
+      "date": "2025-11-15T09:00:00Z",
+      "read": true,
+      "courseId": "MATH9",
+      "type": "announcement",
+      "priority": "normal"
+    },
+    {
+      "id": "ANN5",
+      "from": "Mr. Arjun Mehta",
+      "fromEmail": "arjun.mehta@school.in",
+      "subject": "Drama Workshop This Weekend",
+      "body": "Special workshop on Merchant of Venice scenes this Saturday 2-4 PM. Open to all Class 9 students.",
+      "date": "2025-11-14T16:00:00Z",
+      "read": true,
+      "courseId": "ENG9",
+      "type": "announcement",
+      "priority": "normal"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q1",
+      "courseId": "MATH9",
+      "title": "Chapter 1 Quiz - Rational Numbers",
+      "startDate": "2025-05-18T09:00:00Z",
+      "endDate": "2025-05-18T09:30:00Z",
+      "duration": 30,
+      "totalPoints": 20,
+      "earnedPoints": 18,
+      "status": "completed",
+      "attemptsUsed": 1,
+      "maxAttempts": 1,
+      "questions": [
+        {
+          "id": "Q1-1",
+          "type": "multiple-choice",
+          "question": "Which is irrational?",
+          "points": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "\u221a9",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "\u221a5",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "0.5",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q1-2",
+          "type": "multiple-choice",
+          "question": "\u03c0 is a:",
+          "points": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Rational number",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "Irrational number",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": "Q1-3",
+          "type": "true-false",
+          "question": "All integers are rational numbers.",
+          "points": 4,
+          "correctAnswer": "true"
+        },
+        {
+          "id": "Q1-4",
+          "type": "multiple-choice",
+          "question": "\u221a16 equals:",
+          "points": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "4",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "8",
+              "isCorrect": false
+            },
+            {
+              "id": "c",
+              "text": "16",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q1-5",
+          "type": "true-false",
+          "question": "0 is a rational number.",
+          "points": 4,
+          "correctAnswer": "true"
+        }
+      ],
+      "tags": [
+        "logical-reasoning",
+        "abstract-thinking",
+        "pattern-recognition"
+      ]
+    },
+    {
+      "id": "Q2",
+      "courseId": "MATH9",
+      "title": "Chapter 2 Quiz - Compound Interest",
+      "startDate": "2025-06-12T09:00:00Z",
+      "endDate": "2025-06-12T09:30:00Z",
+      "duration": 30,
+      "totalPoints": 20,
+      "earnedPoints": 19,
+      "status": "completed",
+      "attemptsUsed": 1,
+      "maxAttempts": 1,
+      "questions": [
+        {
+          "id": "Q2-1",
+          "type": "multiple-choice",
+          "question": "CI formula is:",
+          "points": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "P(1+r/100)^t",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "P\u00d7r\u00d7t",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q2-2",
+          "type": "multiple-choice",
+          "question": "CI on \u20b91000 at 10% for 2 years:",
+          "points": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "\u20b9200",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "\u20b9210",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": "Q2-3",
+          "type": "true-false",
+          "question": "CI > SI for same P, R, T.",
+          "points": 5,
+          "correctAnswer": "true"
+        },
+        {
+          "id": "Q2-4",
+          "type": "multiple-choice",
+          "question": "Amount = P + ?",
+          "points": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Interest",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "Rate",
+              "isCorrect": false
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "financial-literacy",
+        "applied-mathematics",
+        "real-world-problem-solving"
+      ]
+    },
+    {
+      "id": "Q3",
+      "courseId": "MATH9",
+      "title": "Mid-Term Quiz - Chapters 1-3",
+      "startDate": "2025-11-20T10:00:00Z",
+      "endDate": "2025-11-20T11:00:00Z",
+      "duration": 60,
+      "totalPoints": 50,
+      "status": "upcoming",
+      "attemptsUsed": 0,
+      "maxAttempts": 1,
+      "questions": [
+        {
+          "id": "Q3-1",
+          "type": "multiple-choice",
+          "question": "Which of the following is an irrational number?",
+          "points": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "\u221a16",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "\u221a7",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "0.333...",
+              "isCorrect": false
+            },
+            {
+              "id": "d",
+              "text": "22/7",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q3-2",
+          "type": "multiple-choice",
+          "question": "The compound interest on \u20b910,000 at 10% per annum for 2 years is:",
+          "points": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "\u20b92,000",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "\u20b92,100",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "\u20b92,200",
+              "isCorrect": false
+            },
+            {
+              "id": "d",
+              "text": "\u20b92,500",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q3-3",
+          "type": "multiple-choice",
+          "question": "Expand: (x + 3)\u00b2",
+          "points": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "x\u00b2 + 9",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "x\u00b2 + 6x + 9",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "x\u00b2 + 3x + 9",
+              "isCorrect": false
+            },
+            {
+              "id": "d",
+              "text": "x\u00b2 + 6x + 3",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q3-4",
+          "type": "true-false",
+          "question": "Every rational number is a real number.",
+          "points": 2,
+          "correctAnswer": "true"
+        },
+        {
+          "id": "Q3-5",
+          "type": "multiple-choice",
+          "question": "If principal = \u20b95,000, rate = 8% p.a., time = 3 years, find compound interest:",
+          "points": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "\u20b91,200",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "\u20b91,259.71",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "\u20b91,300",
+              "isCorrect": false
+            },
+            {
+              "id": "d",
+              "text": "\u20b91,400",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q3-6",
+          "type": "multiple-choice",
+          "question": "(a - b)\u00b2 is equal to:",
+          "points": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "a\u00b2 - b\u00b2",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "a\u00b2 + b\u00b2 - 2ab",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "a\u00b2 - 2ab + b\u00b2",
+              "isCorrect": true
+            },
+            {
+              "id": "d",
+              "text": "a\u00b2 + b\u00b2",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q3-7",
+          "type": "short-answer",
+          "question": "Simplify: (2x + 3)(2x - 3)",
+          "points": 3,
+          "correctAnswer": "4x\u00b2 - 9"
+        },
+        {
+          "id": "Q3-8",
+          "type": "multiple-choice",
+          "question": "The value of \u221a2 is approximately:",
+          "points": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "1.414",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "1.732",
+              "isCorrect": false
+            },
+            {
+              "id": "c",
+              "text": "2.236",
+              "isCorrect": false
+            },
+            {
+              "id": "d",
+              "text": "3.142",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q3-9",
+          "type": "multiple-choice",
+          "question": "Expand: (x + y)\u00b3",
+          "points": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "x\u00b3 + y\u00b3",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "x\u00b3 + y\u00b3 + 3xy",
+              "isCorrect": false
+            },
+            {
+              "id": "c",
+              "text": "x\u00b3 + y\u00b3 + 3xy(x + y)",
+              "isCorrect": true
+            },
+            {
+              "id": "d",
+              "text": "x\u00b3 + 3x\u00b2y + 3xy\u00b2 + y\u00b3",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": "Q3-10",
+          "type": "true-false",
+          "question": "Simple interest is always less than compound interest for the same principal, rate, and time.",
+          "points": 2,
+          "correctAnswer": "true"
+        }
+      ],
+      "tags": [
+        "algebraic-manipulation",
+        "systems-thinking",
+        "multi-step-problem-solving"
+      ]
+    },
+    {
+      "id": "Q4",
+      "courseId": "ENG9",
+      "title": "Grammar Quiz - Parts of Speech",
+      "startDate": "2025-05-22T10:00:00Z",
+      "endDate": "2025-05-22T10:30:00Z",
+      "duration": 30,
+      "totalPoints": 25,
+      "earnedPoints": 23,
+      "status": "completed",
+      "attemptsUsed": 1,
+      "maxAttempts": 1,
+      "questions": [
+        {
+          "id": "Q4-1",
+          "type": "multiple-choice",
+          "question": "'Quickly' is a/an:",
+          "points": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Adjective",
+              "isCorrect": false
+            },
+            {
+              "id": "b",
+              "text": "Adverb",
+              "isCorrect": true
+            },
+            {
+              "id": "c",
+              "text": "Verb",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q4-2",
+          "type": "multiple-choice",
+          "question": "Identify the noun: 'She runs fast'",
+          "points": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "She",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "runs",
+              "isCorrect": false
+            },
+            {
+              "id": "c",
+              "text": "fast",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q4-3",
+          "type": "true-false",
+          "question": "'Beautiful' is an adjective.",
+          "points": 5,
+          "correctAnswer": "true"
+        },
+        {
+          "id": "Q4-4",
+          "type": "multiple-choice",
+          "question": "'On' is a:",
+          "points": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Preposition",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "Conjunction",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q4-5",
+          "type": "true-false",
+          "question": "'And' is a conjunction.",
+          "points": 5,
+          "correctAnswer": "true"
+        }
+      ],
+      "tags": [
+        "interpretive-analysis",
+        "symbolic-thinking",
+        "critical-thinking"
+      ]
+    },
+    {
+      "id": "Q5",
+      "courseId": "ENG9",
+      "title": "Poetry Comprehension Quiz",
+      "startDate": "2025-11-21T11:00:00Z",
+      "endDate": "2025-11-21T11:30:00Z",
+      "duration": 30,
+      "totalPoints": 30,
+      "status": "upcoming",
+      "attemptsUsed": 0,
+      "maxAttempts": 1,
+      "questions": [
+        {
+          "id": "Q5-1",
+          "type": "multiple-choice",
+          "question": "Who wrote 'The Road Not Taken'?",
+          "points": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Robert Frost",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "William Wordsworth",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q5-2",
+          "type": "multiple-choice",
+          "question": "The poem is about:",
+          "points": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Making choices",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "Nature",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "Q5-3",
+          "type": "short-answer",
+          "question": "What does 'yellow wood' symbolize?",
+          "points": 6,
+          "correctAnswer": "autumn"
+        },
+        {
+          "id": "Q5-4",
+          "type": "true-false",
+          "question": "The speaker regrets his choice.",
+          "points": 6,
+          "correctAnswer": "false"
+        },
+        {
+          "id": "Q5-5",
+          "type": "multiple-choice",
+          "question": "The rhyme scheme is:",
+          "points": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "ABAAB",
+              "isCorrect": true
+            },
+            {
+              "id": "b",
+              "text": "ABAB",
+              "isCorrect": false
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "literary-analysis",
+        "interpretive-skills",
+        "aesthetic-appreciation"
+      ]
+    }
+  ],
+  "grades": {
+    "MATH9": {
+      "currentGrade": 85,
+      "letterGrade": "A",
+      "percentile": 78,
+      "categories": [
+        {
+          "name": "Assignments",
+          "weight": 30,
+          "earnedPoints": 83,
+          "totalPoints": 90,
+          "percentage": 92.2
+        },
+        {
+          "name": "Quizzes",
+          "weight": 30,
+          "earnedPoints": 37,
+          "totalPoints": 40,
+          "percentage": 92.5
+        },
+        {
+          "name": "Exams",
+          "weight": 40,
+          "earnedPoints": 0,
+          "totalPoints": 0,
+          "percentage": 0
+        }
+      ]
+    },
+    "ENG9": {
+      "currentGrade": 88,
+      "letterGrade": "A",
+      "percentile": 82,
+      "categories": [
+        {
+          "name": "Assignments",
+          "weight": 30,
+          "earnedPoints": 28,
+          "totalPoints": 30,
+          "percentage": 93.3
+        },
+        {
+          "name": "Quizzes",
+          "weight": 30,
+          "earnedPoints": 23,
+          "totalPoints": 25,
+          "percentage": 92.0
+        },
+        {
+          "name": "Exams",
+          "weight": 40,
+          "earnedPoints": 0,
+          "totalPoints": 0,
+          "percentage": 0
+        }
+      ]
+    }
+  },
+  "notices": [
+    {
+      "id": "N1",
+      "courseId": "MATH9",
+      "title": "Mid-Term Exam Schedule",
+      "content": "Mid-term exam for Chapters 1-3 will be held on November 25, 2025. Please prepare accordingly.",
+      "author": "Mrs. Priya Deshmukh",
+      "createdAt": "2025-11-15T10:00:00Z",
+      "isPinned": true
+    },
+    {
+      "id": "N2",
+      "courseId": "ENG9",
+      "title": "Poetry Recitation Competition",
+      "content": "Interested students can participate in the inter-class poetry recitation on November 30.",
+      "author": "Mr. Arjun Mehta",
+      "createdAt": "2025-11-16T14:00:00Z",
+      "isPinned": false
+    }
+  ],
+  "courseOutlines": [
+    {
+      "courseId": "MATH9",
+      "courseName": "Mathematics",
+      "chapters": [
+        {
+          "id": "M1",
+          "number": 1,
+          "title": "Rational Numbers",
+          "description": "Understanding rational and irrational numbers, their properties, and operations on the number line",
+          "topics": [
+            "Rational Numbers",
+            "Irrational Numbers",
+            "Real Numbers",
+            "Number Line",
+            "Laws of Exponents"
+          ],
+          "tags": [
+            "logical-reasoning",
+            "abstract-thinking",
+            "pattern-recognition",
+            "numerical-analysis"
+          ]
+        },
+        {
+          "id": "M2",
+          "number": 2,
+          "title": "Compound Interest",
+          "description": "Application of compound interest formulas in banking, growth, and depreciation scenarios",
+          "topics": [
+            "Simple Interest",
+            "Compound Interest Formula",
+            "Growth and Depreciation",
+            "Banking Applications"
+          ],
+          "tags": [
+            "financial-literacy",
+            "applied-mathematics",
+            "real-world-problem-solving",
+            "quantitative-analysis"
+          ]
+        },
+        {
+          "id": "M3",
+          "number": 3,
+          "title": "Expansions",
+          "description": "Algebraic identities and expansion techniques for binomial and trinomial expressions",
+          "topics": [
+            "Algebraic Identities",
+            "(a+b)\u00b2 and (a-b)\u00b2",
+            "(a+b)\u00b3 and (a-b)\u00b3",
+            "Factorization"
+          ],
+          "tags": [
+            "algebraic-manipulation",
+            "pattern-recognition",
+            "symbolic-reasoning",
+            "abstract-thinking"
+          ]
+        },
+        {
+          "id": "M4",
+          "number": 4,
+          "title": "Factorization",
+          "description": "Methods for factoring algebraic expressions using common factors, grouping, and identities",
+          "topics": [
+            "Common Factors",
+            "Grouping Method",
+            "Using Identities",
+            "Quadratic Expressions"
+          ],
+          "tags": [
+            "problem-decomposition",
+            "analytical-thinking",
+            "pattern-recognition",
+            "systematic-approach"
+          ]
+        },
+        {
+          "id": "M5",
+          "number": 5,
+          "title": "Simultaneous Linear Equations",
+          "description": "Solving systems of linear equations using elimination, substitution, and cross-multiplication methods",
+          "topics": [
+            "Elimination Method",
+            "Substitution Method",
+            "Cross-Multiplication",
+            "Word Problems"
+          ],
+          "tags": [
+            "systems-thinking",
+            "logical-reasoning",
+            "multi-step-problem-solving",
+            "applied-mathematics"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "RES-M1",
+          "name": "ICSE Mathematics Syllabus 2025-26.pdf",
+          "size": "850 KB",
+          "uploadedAt": "2025-04-01T10:00:00Z"
+        },
+        {
+          "id": "RES-M2",
+          "name": "Formula Sheet - Complete Reference.pdf",
+          "size": "1.2 MB",
+          "uploadedAt": "2025-04-05T14:00:00Z"
+        },
+        {
+          "id": "RES-M3",
+          "name": "Previous Year Question Papers.pdf",
+          "size": "3.5 MB",
+          "uploadedAt": "2025-04-10T09:00:00Z"
+        },
+        {
+          "id": "RES-M4",
+          "name": "Important Theorems and Proofs.pdf",
+          "size": "1.8 MB",
+          "uploadedAt": "2025-04-15T11:30:00Z"
+        },
+        {
+          "id": "RES-M5",
+          "name": "Practice Problem Set - All Chapters.pdf",
+          "size": "2.4 MB",
+          "uploadedAt": "2025-04-20T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "courseId": "ENG9",
+      "courseName": "English",
+      "chapters": [
+        {
+          "id": "E1",
+          "number": 1,
+          "title": "Grammar - Parts of Speech",
+          "description": "Comprehensive study of grammatical structures including nouns, verbs, adjectives, and their usage",
+          "topics": [
+            "Nouns",
+            "Pronouns",
+            "Verbs",
+            "Adjectives",
+            "Adverbs",
+            "Prepositions"
+          ],
+          "tags": [
+            "language-structure",
+            "attention-to-detail",
+            "rule-based-thinking",
+            "communication-skills"
+          ]
+        },
+        {
+          "id": "E2",
+          "number": 2,
+          "title": "Composition - Essay Writing",
+          "description": "Techniques for writing narrative, descriptive, and argumentative essays with proper structure",
+          "topics": [
+            "Narrative Essays",
+            "Descriptive Essays",
+            "Argumentative Essays",
+            "Letter Writing"
+          ],
+          "tags": [
+            "creative-expression",
+            "structured-thinking",
+            "persuasive-communication",
+            "written-articulation"
+          ]
+        },
+        {
+          "id": "E3",
+          "number": 3,
+          "title": "Poetry - The Road Not Taken",
+          "description": "Analysis of Robert Frost's poem exploring themes of choice, individuality, and life decisions",
+          "topics": [
+            "Poet Biography",
+            "Theme Analysis",
+            "Literary Devices",
+            "Critical Appreciation"
+          ],
+          "tags": [
+            "interpretive-analysis",
+            "symbolic-thinking",
+            "aesthetic-appreciation",
+            "critical-thinking"
+          ]
+        },
+        {
+          "id": "E4",
+          "number": 4,
+          "title": "Prose - The Lost Child",
+          "description": "Study of Mulk Raj Anand's story about childhood innocence and parental love",
+          "topics": [
+            "Story Summary",
+            "Character Analysis",
+            "Theme",
+            "Moral Lessons"
+          ],
+          "tags": [
+            "empathy",
+            "narrative-comprehension",
+            "character-analysis",
+            "emotional-intelligence"
+          ]
+        },
+        {
+          "id": "E5",
+          "number": 5,
+          "title": "Drama - The Merchant of Venice",
+          "description": "Shakespeare's play examining themes of justice, mercy, and prejudice in Renaissance Venice",
+          "topics": [
+            "Plot Summary",
+            "Characters",
+            "Themes",
+            "Shakespeare's Language"
+          ],
+          "tags": [
+            "literary-analysis",
+            "historical-context",
+            "complex-narratives",
+            "interpretive-skills"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "RES-E1",
+          "name": "ICSE English Syllabus 2025-26.pdf",
+          "size": "750 KB",
+          "uploadedAt": "2025-04-01T10:00:00Z"
+        },
+        {
+          "id": "RES-E2",
+          "name": "Grammar Rules Quick Reference.pdf",
+          "size": "1.1 MB",
+          "uploadedAt": "2025-04-05T14:00:00Z"
+        },
+        {
+          "id": "RES-E3",
+          "name": "Literary Terms Glossary.pdf",
+          "size": "900 KB",
+          "uploadedAt": "2025-04-10T09:00:00Z"
+        },
+        {
+          "id": "RES-E4",
+          "name": "Essay Writing Templates.pdf",
+          "size": "1.3 MB",
+          "uploadedAt": "2025-04-15T11:30:00Z"
+        },
+        {
+          "id": "RES-E5",
+          "name": "Sample Answers and Model Essays.pdf",
+          "size": "2.1 MB",
+          "uploadedAt": "2025-04-20T10:00:00Z"
+        }
+      ]
+    }
+  ],
+  "calendar": {
+    "classes": [
+      {
+        "id": "C1",
+        "title": "Mathematics Class",
+        "courseId": "MATH9",
+        "date": "2025-11-18T09:00:00Z",
+        "location": "Room 301"
+      },
+      {
+        "id": "C2",
+        "title": "English Class",
+        "courseId": "ENG9",
+        "date": "2025-11-18T11:00:00Z",
+        "location": "Room 205"
+      },
+      {
+        "id": "C3",
+        "title": "Mathematics Class",
+        "courseId": "MATH9",
+        "date": "2025-11-20T09:00:00Z",
+        "location": "Room 301"
+      },
+      {
+        "id": "C4",
+        "title": "English Class",
+        "courseId": "ENG9",
+        "date": "2025-11-21T11:00:00Z",
+        "location": "Room 205"
+      },
+      {
+        "id": "C5",
+        "title": "Mathematics Class",
+        "courseId": "MATH9",
+        "date": "2025-11-22T09:00:00Z",
+        "location": "Room 301"
+      }
+    ],
+    "exams": [
+      {
+        "id": "E1",
+        "title": "Mathematics Mid-Term Exam",
+        "courseId": "MATH9",
+        "date": "2025-11-25T10:00:00Z",
+        "location": "Hall A"
+      },
+      {
+        "id": "E2",
+        "title": "English Mid-Term Exam",
+        "courseId": "ENG9",
+        "date": "2025-11-27T10:00:00Z",
+        "location": "Hall B"
+      }
+    ],
+    "events": [
+      {
+        "id": "EV1",
+        "title": "Poetry Competition",
+        "date": "2025-11-30T14:00:00Z",
+        "location": "Auditorium"
+      }
+    ]
+  },
+  "psychometrics": {
+    "careerPrediction": {
+      "customStrengths": [
+        "Analytical Thinking",
+        "Problem Solving",
+        "Mathematical Reasoning",
+        "Attention to Detail"
+      ],
+      "fieldsOfInterest": [
+        "Computer Science",
+        "Engineering",
+        "Data Science",
+        "Mathematics",
+        "Research"
+      ],
+      "raisecProfile": {
+        "realistic": 65,
+        "investigative": 85,
+        "artistic": 45,
+        "social": 55,
+        "enterprising": 50,
+        "conventional": 70
+      },
+      "recommendations": [
+        {
+          "career": "Data Scientist",
+          "matchScore": 92,
+          "reasoning": "Strong investigative and conventional traits combined with mathematical aptitude make this an excellent fit"
+        },
+        {
+          "career": "Software Engineer",
+          "matchScore": 88,
+          "reasoning": "High investigative score and problem-solving abilities align well with software development"
+        },
+        {
+          "career": "Research Analyst",
+          "matchScore": 85,
+          "reasoning": "Analytical thinking and attention to detail support research-oriented careers"
+        }
+      ]
+    },
+    "cognitiveAbilities": {
+      "rawIntelligence": 128,
+      "intelligenceCeiling": "High (120-130 IQ range)",
+      "needForCognition": 82,
+      "learningTransfer": 78,
+      "description": "Strong cognitive abilities with high capacity for abstract reasoning and knowledge application"
+    },
+    "personality": {
+      "bigFive": {
+        "openness": 75,
+        "conscientiousness": 82,
+        "extraversion": 45,
+        "agreeableness": 68,
+        "neuroticism": 35
+      },
+      "summary": "Highly conscientious and open to new experiences, with moderate social engagement and emotional stability"
+    },
+    "tagAnalysis": {
+      "dominantTags": [
+        {
+          "tag": "logical-reasoning",
+          "frequency": 8,
+          "strength": "high"
+        },
+        {
+          "tag": "abstract-thinking",
+          "frequency": 7,
+          "strength": "high"
+        },
+        {
+          "tag": "pattern-recognition",
+          "frequency": 6,
+          "strength": "medium"
+        },
+        {
+          "tag": "applied-mathematics",
+          "frequency": 5,
+          "strength": "medium"
+        },
+        {
+          "tag": "critical-thinking",
+          "frequency": 5,
+          "strength": "medium"
+        }
+      ],
+      "careerAlignment": {
+        "Data Scientist": [
+          "logical-reasoning",
+          "abstract-thinking",
+          "pattern-recognition",
+          "quantitative-analysis"
+        ],
+        "Software Engineer": [
+          "logical-reasoning",
+          "problem-decomposition",
+          "systems-thinking",
+          "abstract-thinking"
+        ],
+        "Research Analyst": [
+          "analytical-thinking",
+          "quantitative-analysis",
+          "systematic-approach",
+          "critical-thinking"
+        ]
+      }
+    }
+  }
+}
