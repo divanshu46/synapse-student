@@ -2,9 +2,15 @@ import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 import studentData from '@/master-student.json';
 
+const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY || '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';
+
 const client = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: process.env.OPENROUTER_API_KEY || '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',
+  apiKey: OPENROUTER_KEY,
+  defaultHeaders: {
+    'HTTP-Referer': 'https://synapse-student.netlify.app',
+    'X-Title': 'Synapse Student LMS',
+  },
 });
 
 const SYSTEM_PROMPT = `You are an AI educational assistant for students. Your role is to:
@@ -34,15 +40,18 @@ export async function POST(request: NextRequest) {
     ];
 
     const completion = await client.chat.completions.create({
-      model: 'moonshotai/kimi-k2-0905',
+      model: 'openai/gpt-3.5-turbo',
       messages: messages as any,
     });
 
     const response = completion.choices[0].message.content;
 
     return NextResponse.json({ response });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Chatbot error:', error);
-    return NextResponse.json({ error: 'Failed to get response' }, { status: 500 });
+    return NextResponse.json({ 
+      error: 'Failed to get response',
+      details: error.message 
+    }, { status: 500 });
   }
 }
