@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { ArrowLeft, FileText, Download, Award, Calendar, User, BookOpen } from 'lucide-react';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockOutlines: Record<string, any> = {};
 mockData.courseOutlines.forEach(outline => {

@@ -10,7 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Pin, FileText, ClipboardCheck, Calendar, Download, Send, Users, BarChart3 } from 'lucide-react';
 import { format } from 'date-fns';
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockNotices = mockData.messages
   .filter(m => m.type === 'announcement')

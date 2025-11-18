@@ -11,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Calendar, FileText, Clock } from 'lucide-react';
 import { format } from 'date-fns';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockAssignments = mockData.assignments.map(a => ({
   ...a,

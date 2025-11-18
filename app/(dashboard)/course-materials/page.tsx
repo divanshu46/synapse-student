@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { BookOpen, Award, Calendar, User, ChevronRight } from 'lucide-react';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockOutlines = mockData.courses.map(c => ({
   id: c.id,

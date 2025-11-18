@@ -9,7 +9,7 @@ import { Clock, MapPin, Calendar as CalendarIcon } from 'lucide-react';
 import { format, isSameDay } from 'date-fns';
 import { DayContentProps } from 'react-day-picker';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockEvents = [
   ...mockData.calendar.classes.map(c => ({

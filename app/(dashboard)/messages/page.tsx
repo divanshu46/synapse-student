@@ -10,7 +10,7 @@ import { ComposeDialog } from '@/components/messages/ComposeDialog';
 import { Mail, Inbox, Star, Archive, Trash2, Plus } from 'lucide-react';
 import { format } from 'date-fns';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockMessages = mockData.messages.map(m => ({
   id: m.id,

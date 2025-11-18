@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Eye } from 'lucide-react';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockGrades = Object.entries(mockData.grades).map(([courseId, grade]) => {
   const course = mockData.courses.find(c => c.id === courseId);

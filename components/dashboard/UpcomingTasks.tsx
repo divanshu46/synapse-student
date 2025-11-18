@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Clock, FileText, ClipboardCheck } from 'lucide-react';
 import { format } from 'date-fns';
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const upcomingAssignments = mockData.assignments
   .filter(a => a.status === 'pending')

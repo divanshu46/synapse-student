@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart';
 import { Brain, Target, User } from 'lucide-react';
 import { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 export default function PsychometricsPage() {
   const { careerPrediction, cognitiveAbilities, personality, tagAnalysis } = mockData.psychometrics;

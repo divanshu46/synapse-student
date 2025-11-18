@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Pin } from 'lucide-react';
 import { format } from 'date-fns';
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockNews = mockData.messages
   .filter(m => m.type === 'announcement')

@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { BookOpen, Users, Calendar } from 'lucide-react';
 
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockCourses = mockData.courses;
 

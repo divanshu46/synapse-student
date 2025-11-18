@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { isSameDay } from 'date-fns';
 import { DayContentProps } from 'react-day-picker';
 import { ExternalLink } from 'lucide-react';
-import mockData from '@/../master-student.json';
+import mockData from '@/master-student.json';
 
 const mockEvents = [
   ...mockData.calendar.classes.map(c => ({ id: c.id, type: 'class' as const, startDate: new Date(c.date) })),
