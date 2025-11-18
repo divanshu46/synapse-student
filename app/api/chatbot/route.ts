@@ -2,7 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 import studentData from '@/master-student.json';
 
-const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY || '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';
+const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
+
+if (!OPENROUTER_KEY) {
+  throw new Error('OPENROUTER_API_KEY environment variable is not set');
+}
 
 const client = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
